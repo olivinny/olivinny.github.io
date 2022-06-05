@@ -25,7 +25,6 @@ function menuShow(event) {
         x: event.x,
         y: event.y,
       };
-      console.log(coordenadas2);
       if (
         coordenadas.x + width + 50 < coordenadas2.x ||
         coordenadas.x - 50 > coordenadas2.x ||
