@@ -29,8 +29,8 @@ function menuShow(event) {
       if (
         coordenadas.x + width + 50 < coordenadas2.x ||
         coordenadas.x - 50 > coordenadas2.x ||
-        coordenadas.y + width + 50 < coordenadas2.y ||
-        coordenadas.y - 50 > coordenadas2.y
+        coordenadas.y + height + 30 < coordenadas2.y ||
+        coordenadas.y - 30 > coordenadas2.y
       ) {
         menuProjetos.classList.remove("projetos-ativo");
         lista.classList.remove("projetos-ativo");
