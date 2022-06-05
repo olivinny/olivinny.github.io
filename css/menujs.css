@@ -1,0 +1,38 @@
+.menu-projetos {
+  display: none;
+}
+.projetos {
+  cursor: pointer;
+}
+.projetos-ativo {
+  display: block;
+  position: absolute;
+  background-color: #d4d4d4;
+  border-radius: 4px;
+  z-index: 1;
+}
+.lista-projetos {
+  display: flex;
+  gap: 25px;
+  padding: 15px 5px;
+  background-color: #d4d4d4;
+  border-radius: 4px;
+}
+.projetos-ativo li {
+  padding: 0px;
+}
+.projetos-ativo a {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+}
+.projetos-ativo a:hover {
+  color: #55c500;
+  transition: 300ms;
+}
+.lista-projetos {
+  flex-direction: column;
+}
