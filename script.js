@@ -15,8 +15,6 @@ function menuShow(event) {
 
   let width = lista.offsetWidth;
   let height = lista.offsetHeight;
-
-  console.log(menuProjetos.classList.contains("projetos-ativo"));
   const body = document.querySelector("body");
   if (menuProjetos.classList.contains("projetos-ativo")) {
     body.addEventListener("mousemove", fecharMenu);
