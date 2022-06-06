@@ -5,7 +5,6 @@ function menuShow(event) {
   const lista = document.querySelector(".lista-projetos");
   menuProjetos.classList.toggle("projetos-ativo");
   lista.classList.toggle("projetos-ativo");
-  botao.classList.toggle("projetos");
   const coordenadas = {
     x: event.x,
     y: event.y,
@@ -32,7 +31,6 @@ function menuShow(event) {
         menuProjetos.classList.remove("projetos-ativo");
         lista.classList.remove("projetos-ativo");
         body.removeEventListener("mousemove", fecharMenu);
-        botao.classList.toggle("projetos");
       }
     }
   }
