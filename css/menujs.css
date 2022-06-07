@@ -13,8 +13,8 @@
 }
 .lista-projetos {
   display: flex;
-  gap: 25px;
-  padding: 15px 5px;
+  gap: 5px;
+  padding: 5px 5px;
   background-color: #d4d4d4;
   border-radius: 4px;
 }
@@ -28,6 +28,7 @@
   text-decoration: none;
   font-weight: bold;
   color: inherit;
+  display: block;
 }
 .projetos-ativo a:hover {
   color: #55c500;
