@@ -5,11 +5,13 @@
   cursor: pointer;
 }
 .projetos-ativo {
-  display: block;
+  display: flex;
   position: absolute;
   background-color: #d4d4d4;
   border-radius: 4px;
   z-index: 1;
+  flex: 1;
+  width: 15ch;
 }
 .lista-projetos {
   display: flex;
@@ -17,9 +19,11 @@
   padding: 5px 5px;
   background-color: #d4d4d4;
   border-radius: 4px;
+  flex: 1;
 }
 .projetos-ativo li {
   padding: 0px;
+  display: block;
 }
 .projetos-ativo a {
   background-color: #fff;
